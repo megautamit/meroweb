@@ -935,6 +935,7 @@ section#card_main {
     border-radius: 240px 40px 40px 40px;
     border: 2px solid var(--circle-img-border);
     padding: 10px;
+    z-index: 1000
 }
 
 .amit-img {
