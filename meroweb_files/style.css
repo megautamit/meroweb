@@ -695,11 +695,16 @@ canvas {
 
 /*-----------------------[ 6.Fix Icon Menu CSS ]------------------------*/
 .logo {
-    width: 80px;  /* Or 100px if you want slightly bigger */
-    height: auto; /* Auto keeps the logo proportional */
-    margin: -1rem 4rem; /* Optional: center it nicely */
-    display: block; /* Needed to make margin auto work */
-    padding-top: 20px; /* Add a little gap from top */
+    width: 80px;
+    /* Or 100px if you want slightly bigger */
+    height: auto;
+    /* Auto keeps the logo proportional */
+    margin: -1rem 4rem;
+    /* Optional: center it nicely */
+    display: block;
+    /* Needed to make margin auto work */
+    padding-top: 20px;
+    /* Add a little gap from top */
 }
 
 .sidebar {
@@ -929,7 +934,7 @@ section#card_main {
     position: relative;
     border-radius: 240px 40px 40px 40px;
     border: 2px solid var(--circle-img-border);
-    padding: 20px;
+    padding: 10px;
 }
 
 .amit-img {
@@ -2552,6 +2557,28 @@ ul {
     overflow: hidden;
     position: relative;
 }
+
+/* MOBILE CSS ADDED BY AAYUSH STARTS */
+
+@media (max-width: 768px) {
+    .imgBox {
+        border-radius: 0px;
+    }
+    .amit_bio{
+        border-radius: 40px;
+        margin-bottom: 1rem;
+    }
+    .skill-inner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+/* MOBILE CSS ADDED BY AAYUSH ENDS */
 
 .imgBox video {
     height: 775px;
